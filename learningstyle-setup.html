@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Set Up Your Profile</title>
+</head>
+
+<body>
+    <h3 id="welcome-student">Welcome, <?php echo $first;?>! We see you would like a tutor!</h3>
+    <div id="learning-info">
+        <div id="subjects" class="profile-info">
+            <h5>Select subjects you may need help in.</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="English" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+   English
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Math" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Math
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Science" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Science
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Social Studies" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+   Social Studies
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Other" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Other
+  </label>
+            </div>
+        </div>
+        <div id="learning-style" class="profile-info">
+            <h5>Which best describes how learn best? Please select up to two options.</h5>
+            <!--<select class="browser-default" id="styles">-->
+    <!--<option value="1">Through pictures and diagrams</option>-->
+    <!--<option value="2">Hearing concepts explained verbally</option>-->
+    <!--<option value="3">Working out solutions to complicated problems</option>-->
+    <!--<option value="1">Trough demonstrations</option>-->
+    <!--<option value="2">Talking through comparisons to fimiliar concepts</option>-->
+    <!--<option value="3">Creating outlines and flowcharts</option>-->
+    <form id="styles">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Through pictures and diagrams
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Hearing concepts explained verbally
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+   Working out solutions to complicated problems
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Trough demonstrations
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Talking through comparisons to fimiliar concepts
+  </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+    Creating outlines and flowcharts
+
+  </label>
+            </div>
+              </form>
+                 <a href="profile.html"><button  type="button" onclick="learningstyles()" class="btn btn-primary">Continue</button></a>
+        </div>
+    </div>
+    </div>
+    </div>
+  
+</body>
+
+</html>

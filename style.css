@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate|Varela+Round');
+body {
+    background-color: #2F343B !important;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+}
+
+#passErrorMessage {
+    display: none;
+}
+
+.flex-container {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: space-evenly;
+}
+#already{
+    filter: blur(3px);
+    margin-top: 8%;
+    margin-left: 15%;
+    position:absolute;
+    width: 70%;
+    height: 300px;
+    background-color: #E3CDA4;
+    text-align: right;
+    padding: 2%;
+    z-index: -1;
+    /*border-color: #703030;*/
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+}
+#create-account {
+    margin-top: 5%;
+    margin-left: 25%;
+    /*display: inline-block;*/
+    width: 33%;
+    background-color: #A8ADA3;
+    border-radius: 10%;
+    text-align: center;
+    padding: 2%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+    position: absolute;
+}
+#log-in {
+    align-content:center;
+    margin-top: 5%;
+    margin-left: 25%;
+    height:375px;
+    /*display: inline-block;*/
+    width: 33%;
+    background-color: #A8ADA3;
+    border-radius: 10%;
+    text-align: center;
+    padding: 2%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+    position: absolute;
+}
+
+/*
+#g-log-in {
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+}
+*/
+
+button {
+    /*width: 35%;*/
+    background-color: #C77966 !important;
+    border: none !important;
+    /*margin-left:35%;*/
+}
+
+#log-in input {
+    border: none;
+}
+
+h1 {
+    color: white;
+    font-size: 350%;
+    text-align: center;
+}
+
+.profile-info {
+    margin-top: 3%;
+    margin-left: 35%;
+    background-color: #A8ADA3;
+    width: 30%;
+    border-radius: 10%;
+    text-align: center;
+    padding: 2%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+
+#welcome-student {
+    color: white;
+}
+
+.welcome{
+    margin-top: 2%;
+    color:white;
+}
+#nav {
+    background-color: #C77966 !important;
+    background-image: none !important;
+    display: inline-block;
+    height: 100%;
+    margin-left: -80%;
+    width: 15%;
+
+}
+
+.navbar-nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.nav-item{
+    padding:2%;
+    height:20%;
+    width:100%;
+}
+
+.navbar-nav :hover {
+    background-color: #703030;
+
+
+}
+
+.available-tutors {
+    display:inline-block;
+    padding: 3%;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-top: -20%;
+    background-color: #E3CDA4;
+    width: 20%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.available-tutors img {
+    width:90%;
+    border-radius: 50%;
+     border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.available-tutors button {
+    background-color: #C77966 !important;
+}
+
+
+#tutors {
+    padding-left: 5%;
+    margin-top: -20%;
+}
+#period{
+    width:20%;
+    background-color: #E3CDA4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5%;
+    display: inline-block;
+    padding:2%;
+    
+}
+#weekdays{
+    width:50%;
+    background-color: #E3CDA4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5%;
+    display: inline-block;
+    padding:2.8%;
+}
+.student-request {
+    display:inline-block;
+    padding: 3%;
+    border-radius: 10%;
+margin-left: 5%;
+    margin-top: -20%;
+    background-color: #E3CDA4;
+    width: 20%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.student-request img {
+    width:90%;
+    border-radius: 50%;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+.student-request button {
+    background-color: #C77966 !important;
+}
+
+#profile{
+    width:50%;
+    padding:2%;
+    margin-left:32%;
+    border-radius: 10%;
+    margin-top: -45%;
+    background-color: #A8ADA3;
+    border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+#profpic {
+    width:30%;
+    height:30%;
+    border-radius:50%;
+        border-color: #703030;
+    border-style: solid;
+    border-width: 7px;
+}
+/*
+#profile button {
+    background-color: #C77966 !important;
+    margin-left:90%;
+}
+*/
+
+.form-upload input[type=file] {
+    width: 100%;
+    clear: both;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+.heading{
+    color:white;
+    position: absolute;
+    margin-top:-45%;
+    margin-left: 40%;
+}
+#help{
+    position:absolute;
+    margin-top:-38%;
+    margin-left:40%;
+}
